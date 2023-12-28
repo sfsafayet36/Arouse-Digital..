@@ -1,0 +1,135 @@
+@media (max-width: 1100px) {
+    html {
+        font-size: 52%;
+    }
+}
+@media (max-width: 930px) {
+    html {
+        font-size: 46%;
+    }
+
+    #main-header #ullist {
+        position: absolute;
+        flex-direction: column;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        top: 0;
+        height: 100vh;
+        width: 70%;
+        right: -100%;
+    }
+    #main-header #ullist.navtoggle {
+        right: 0;
+    }
+    #crossbar {
+        display: block;
+        position: absolute;
+        top: 7rem;
+        right: 7rem;
+    }
+    #menubar {
+        display: block;
+    }
+    #fourth-section {
+        min-height: auto;
+    }
+    #services-list {
+        position: absolute;
+        top: 3rem;
+        opacity: 1;
+        z-index: 999;
+    }
+}
+@media (max-width: 880px) {
+    html {
+        font-size: 42%;
+    }
+}
+@media (max-width: 805px) {
+    #fifth-section #contact-and-address {
+        flex-direction: column;
+    }
+    #fifth-section #contact-and-address #left {
+        width: 100%;
+    }
+    #fifth-section #contact-and-address #left #contact-form {
+        width: 100%;
+        padding: 0;
+    }
+    #fifth-section #contact-and-address #left #contact-form #first-and-last {
+        flex-direction: column;
+    }
+    #fifth-section #contact-and-address #right {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #second-section #clients {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #third-section #our-services {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #fourth-section {
+        flex-direction: column-reverse;
+        padding: 5rem 0;
+    }
+    #fourth-section #left {
+        width: 100%;
+    }
+    #fourth-section #right {
+        width: 100%;
+    }
+    #footer-main {
+        flex-direction: column;
+    }
+    footer #footer-main #footer-aboutus {
+        width: 100%;
+    }
+    footer #copyright h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 48%;
+    }
+    #top-nav {
+        padding: 0 2rem;
+        height: 10vh;
+    }
+    #top-nav #left {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #main-header {
+        padding: 0 5rem;
+    }
+    #first-section #content {
+        flex-direction: column;
+        justify-content: center;
+        gap: 6rem;
+    }
+    #first-section #content h3 {
+        width: 100%;
+    }
+    #second-section #clients {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #third-section #our-services {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #fifth-section {
+        padding: 3rem 0;
+    }
+    .contents {
+        padding: 0 5rem 5rem 5rem;
+    }
+    .contents .paragraphs h1 {
+        font-size: 3rem;
+    }
+}
